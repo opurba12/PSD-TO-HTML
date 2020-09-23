@@ -1,0 +1,329 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+*{
+	margin: 0;
+	position: 0;
+    box-sizing: border-box;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+img{
+	max-width: 100%
+}
+.container{
+	width: 1400px;
+	margin: auto;
+}
+.flex{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.col{
+	width: 33.33%;
+    flex: 0 0 auto;
+    padding: 15px;
+}
+h3{
+	font-size: 22px;
+    color: #333366;
+    margin: 22px 0;
+}
+p{
+	font-size: 35px;
+    color: #520a0a;
+    line-height: 1.5;
+}
+/*.align-center{
+    align-items: center;
+}
+*/
+
+/********** header **********/
+header{
+	background: #fff;
+    padding: 20px 0;
+}
+.logo{
+	width: 20%;
+    flex: 0 0 auto;
+}
+.logo a{}
+.logo a img{}
+nav{
+	width: 80%;
+    flex: 0 0 auto;
+}
+nav ul{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul li{
+	list-style: none;
+}
+nav ul li a{
+	font-size: 15px;
+    color: #333366;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: block;
+    padding: 15px 25px;
+    transition-duration: 0.3s;
+}
+nav ul li a:hover{
+	color: #15a4fa;
+}
+
+
+/*********** banner-section ***********/
+.banner-section{}
+.banner-section img{
+	width: 100%
+}
+.arrow{
+	position: absolute;
+    bottom: 25px;
+    left: 52%;
+    font-size: 26px;
+    transform: translateX(-50px);
+}
+.banner-content{
+	position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    max-width: 600px;
+}
+.banner-content h1{
+	font-size: 149px;
+    color: #fff;
+    font-weight: 700;
+}
+}
+.banner-content span {
+	height: 2px;
+    width: 100%;
+    background: #15a4fa;
+    display: block;
+}
+}
+.banner-content p{
+	font-size: 20px;
+    color: #fff;
+}
+.btn{
+	font-size: 18px;
+    border: 1px solid #15a4fa; 
+    display: inline-block;
+    padding: 15px 38px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 65px;
+    transition-duration: 0.3s;
+}
+.btn:hover{
+    background-color: #6A82FB;
+}
+
+
+/************ aboutus-sectio ***********/
+.aboutus-section{
+    background: #f6f9f9;
+    padding: 90px 0px;
+    text-align: center;
+}
+h2{
+	font-size: 40px;
+    color: #2d3950;
+    font-weight: 600;
+}
+.aboutus-section p{
+	font-size: 20px;
+    line-height: 1.6;
+   margin-top: -37px;
+    padding-bottom: 110px;
+    background: #f6f9f9;
+}
+h2{
+	font-size: 44px;
+    color: blue;
+    text-align: center;
+    padding: 72px;
+}
+p{
+    font-size: 28px;
+    margin-top: 25px;
+    line-height: 1.7;
+}
+
+
+
+/************* feature-section ************/
+
+.feature-section{}
+.feature{
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.feature span{
+	width: 90px;
+	height: 90px;
+	background: red;
+	display: block;
+	margin: 50px;
+    line-height: 100px;
+    color: #fff;
+    font-size: 70px;
+}
+.feature span i{
+    /*font-weight: 900;*/
+}
+h3{
+    font-size: 29px;
+    color: #2d3950;
+    margin: 43px 10px;
+}
+p{
+    font-size: 23px;
+    margin-top: 51px;
+    line-height: 1.4;
+}
+
+
+
+
+
+/***************** showcase-section ***************/
+.showcase-section{}
+.showcase{
+    position: relative;
+}
+.showcase img{
+    width: 100%;
+}
+.showcase .overlay{
+    position: absolute;
+    background: #15a4facf;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.showcase ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50px, -50px);
+    display: flex;
+}
+.showcase ul li{
+    list-style: none;
+    padding: 5px;
+}
+.showcase ul li a{
+    font-size: 15px;
+    color: #fff;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.showcase ul li a:hover{}
+
+/************* contact-section **************/
+.contact-section{
+background-image: url(../images/contact.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.contact-section .container{
+justify-content: center;
+}
+.contact-section .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   /* background: rgb(28 64 125 / 70%);*/
+}
+}
+.contact-form{
+    width: 50%;
+    flex: 0 0 auto;
+    text-align: center;
+}
+.contact-form h2{}
+.contact-form form{
+    margin-top: 30px;
+}
+.contact-form form input{
+   width: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 15px;
+  
+}
+.contact-form form textarea{}
+.contact-form form{}
+.contact-form form ul{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-form form ul li {
+    list-style: none;
+}
+.contact-form form ul li label{
+    font-size: 15px;
+}
+.contact-form form ul li input[type="submit"]{}
+
+/************* footer **************/
+footer{
+    padding: 20px;
+}
+.copyright{}
+.copyright p{}
+.social{
+    width: 50%;
+    flex: 0 0 auto;
+}
+.social ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.social ul li{
+    list-style: none;
+    padding: 5px;
+}
+.social ul li a{
+    font-size: 15px;
+    background:  #15a4fa;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #FC5C7D;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+.social ul li a:hover{}
+
+
+
+
+
+
+
+
+
